@@ -14,4 +14,9 @@ docker build -t rl-env .
 docker run -p 8888:8888 -v $(pwd)/notebooks:/notebooks -it rl-env
 ```
 
+### Create docker 
+```bash
+  docker create rl-env
+```
+
 For more details vist: https://docs.docker.com/engine/reference/builder/
